@@ -412,7 +412,19 @@ img { max-width: 100%; display: block; height: auto; }
   border-left: 5px solid #7f8c8d;
 }
 
-.next-event-card #next-event-countdown { font-weight: 700; margin-top: .5rem; }
+.next-event-card #next-event-countdown {
+  font-weight: 700;
+  margin-top: .5rem;
+  font-size: 1.2rem;
+  color: #2225e6;
+  align-items: center;
+  display: inline-block;
+  padding: .25rem .5rem;
+  background: #fffdf0;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+.next-event-card p.time_remaining { margin: 0; font-size: 1.5rem; color: #222fe6; align-items: center;}
 
 /* --------------------------
    Contact Page

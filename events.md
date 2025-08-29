@@ -24,7 +24,7 @@ permalink: /events/
   <div class="next-event-card">
     <h2>Next Event: {{ next_event.title }}</h2>
     <p class="event_meta">📅 {{ next_event.date | date: "%B %d, %Y" }} • 📍 {{ next_event.location }}</p>
-    <p>Time remianing: <div id="next-event-countdown" data-event-date="{{ next_event.date | date: "%Y-%m-%d" }}"></div> </p>
+    <p class="time_remaining">Time remianing: <div id="next-event-countdown" data-event-date="{{ next_event.date | date: "%Y-%m-%d" }}"></div> </p>
   </div>
   {% endif %}
 
