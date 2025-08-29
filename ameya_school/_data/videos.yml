@@ -1,0 +1,21 @@
+# _data/videos.yml
+
+# Single video examples
+- type: "video"
+  title: "Group Performance — Canada Day"
+  event: "Canada Day • Saskatoon"
+  youtube_id: "VIDEO_ID_1"
+  description: "A high-energy group performance blending classical and Bollywood choreography."
+
+- type: "video"
+  title: "Workshop Highlights — Community Workshop"
+  event: "Workshop • Saskatoon"
+  youtube_id: "VIDEO_ID_2"
+  description: "Short highlights from a recent workshop showing warm-ups, choreography breakdowns, and participant showcases."
+
+# Playlist example
+- type: "playlist"
+  title: "FolkFest Performances"
+  event: "FolkFest"
+  playlist_id: "PLAYLIST_ID_1"
+  description: "Watch all FolkFest performances in one playlist."
