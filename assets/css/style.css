@@ -338,3 +338,178 @@ img { max-width: 100%; display: block; height: auto; }
   a { text-decoration: none; color: #000; }
   .site-main { padding: 0; }
 }
+
+
+/* --------------------------
+   Events Page
+--------------------------- */
+.events_page_container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.events_page_title {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.events_section {
+  margin-bottom: 3rem;
+}
+
+.events_section_title {
+  font-size: 1.5rem;
+  border-left: 6px solid #d35400;
+  padding-left: 10px;
+  margin-bottom: 1.5rem;
+}
+
+.events_list {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.event_card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 1.5rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.event_card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+}
+
+.event_title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.event_meta {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 0.75rem;
+}
+
+.event_desc {
+  font-size: 1rem;
+  color: #444;
+}
+
+/* Upcoming events highlight */
+.event_card.upcoming {
+  border-left: 5px solid #27ae60;
+}
+
+/* Past events faded style */
+.event_card.past {
+  opacity: 0.85;
+  border-left: 5px solid #7f8c8d;
+}
+
+.next-event-card #next-event-countdown { font-weight: 700; margin-top: .5rem; }
+
+/* --------------------------
+   Contact Page
+--------------------------- */
+.page-contact_container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.page-contact_title {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.page-contact_intro {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #555;
+}
+
+.page-contact_form {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.page-contact_form .form-group {
+  margin-bottom: 1.5rem;
+}
+
+.page-contact_form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.page-contact_form input,
+.page-contact_form textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.page-contact_btn {
+  background: linear-gradient(to right, #db4f4f, #f57c00, #fbc02d);
+  color: #fff;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: transform 0.2s;
+}
+
+.page-contact_btn:hover {
+  transform: scale(1.05);
+}
+
+.page-contact_social {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.page-contact_social ul {
+  list-style: none;
+  padding: 0;
+}
+
+.page-contact_social li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.page-contact_social a {
+  color: #db4f4f;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* PAGE CONTACT MAP SECTION */
+.page-contact_map {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.page-contact_map h3 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.page-contact_map iframe {
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+

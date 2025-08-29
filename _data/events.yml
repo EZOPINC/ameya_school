@@ -1,0 +1,25 @@
+# _data/events.yml
+- title: "Durga Puja 2025"
+  date: 2025-10-01
+  location: "Saskatoon Hindu Temple"
+  description: "Join us for our annual Durga Puja celebrations with rituals, cultural programs, and community dinner."
+
+- title: "Dance Workshop with Ameya"
+  date: 2025-09-15
+  location: "Ameya School Studio"
+  description: "A special Bharatanatyam workshop for beginners and intermediate students."
+
+- title: "Saraswati Puja 2025"
+  date: 2025-02-05
+  location: "Community Hall"
+  description: "Saraswati Puja celebrations with music, dance, and traditional offerings."
+
+- title: "Diwali Festival 2025"
+  date: 2025-11-02 
+  location: "City Center Park"
+  description: "Celebrate the Festival of Lights with fireworks, food stalls, and cultural performances."
+
+- title: "Indian Classicals Retreat"
+  date: 2025-08-20
+  location: "Lakeside Retreat Center"
+  description: "A weekend retreat focusing on Indian classical practices."
